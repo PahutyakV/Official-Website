@@ -101,28 +101,6 @@ body {
   line-height: 1.7;
 }
 
-/* Highlights */
-.about-highlights {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
-}
-
-.highlight {
-  background: var(--bg-main);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 14px 16px;
-  text-align: center;
-  font-size: 0.95rem;
-  transition: transform 0.2s ease, border-color 0.2s ease;
-}
-
-.highlight:hover {
-  transform: translateY(-4px);
-  border-color: var(--accent);
-}
-
 /* ================= GRID / CARDS ================= */
 .grid {
   display: grid;
